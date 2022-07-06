@@ -1,0 +1,217 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    src: url(./Fonts/IRANSansLight.woff) format('woff'), url(./Fonts/IRANSansLight.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fonticon';
+    src: url(./Fonts/FontIcon.woff) format('woff'), url(./Fonts/FontIcon.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SDF Subsidiary';
+    src: url(./Fonts/IranRegular.eot);
+    src: url(./Fonts/IranRegular.eot?#iefix) format('embedded-opentype'), url(./Fonts/IranRegular.woff) format('woff'), url(./Fonts/IranRegular.ttf) format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    direction: rtl;
+    padding: 20px;
+    font-family: 'IRANSans';
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h3, h4, h5 {
+    margin: 10px 0px;
+}
+
+.customizeStaffProfile{
+    margin-bottom: 35px;
+    background: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+.customizeStaffBackground{
+    position: relative;
+}
+
+.customizeStaffPreperties .customizeStaffUserLeft .customizeStaffUserImage{
+    margin-top: -105px;
+    z-index: 999;
+}
+
+.customizeStaffBackground img{
+    margin: 0 auto;
+}
+.customizeStaffUserImage img {   
+    background-color: antiquewhite;
+    border-radius: 50%;   
+    border: 5px solid #fff;   
+}
+.customizeStaffPreperties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customizeStaffPreperties .customizeStaffUserLeft{
+    display: flex;
+    padding-right: 25px;
+}
+.customizeStaffPreperties .customizeStaffUserLeft .customizeStaffUserName h3{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    color: #000;
+    
+}
+.customizeStaffPreperties .customizeStaffUserLeft .customizeStaffUserName h4{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    color: #000;
+}
+.customizeStaffPreperties >div{  
+    text-align: right;
+}
+.customizeStaffPreperties .customizeStaffSocialMedia{
+    text-align: left;
+    padding-left: 10px;
+ }
+ .customizeStaffPreperties .customizeStaffSocialMedia ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+ }
+ .customizeStaffPreperties .customizeStaffSocialMedia ul li{
+    padding-right: 15px;
+ }
+
+.customizeStaffPreperties .customizeStaffSocialMedia a{
+   display: block;
+}
+.customizeStaffPreperties .customizeStaffSocialMedia a span{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #DBD7D7;
+}
+
+.customizeStaffPreperties .customizeStaffSocialMedia a span.glyphicon::before{
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    z-index: 5;
+    color: #2457C0;
+    font-family: 'fonticon';
+    content: '\E869';
+    font-size: 20px;
+
+}
+.customizeStaffPreperties .customizeStaffSocialMedia a span.glyphicon-download::before{   
+    content: '\E914';
+}
+
+.customizeStaffPreperties .customizeStaffSocialMedia a span.glyphicon-rss::before{   
+    content: '\E815';
+}
+
+.customizeStaffPreperties .customizeStaffSocialMedia a span.glyphicon-post::before{   
+    content: '\E700';    
+}
+
+.customizeStaffPreperties .customizeStaffSocialMedia a span.glyphicon-phone::before{  
+    content: '\E865';    
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxHeading{
+    padding: 0;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBody{
+    padding: 30px 20px 30px 20px;
+    background-color: #FCFCFC;
+    border-top: 2px solid #AAC5FF;
+    box-shadow: 0px 0px 5px #e1e1e1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBodyForm{
+    padding: 50px 40px 30px 15px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 0px 5px #e1e1e1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBodyForm form .row{
+    padding-bottom: 26px;   
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBodyForm form .form-group{
+    padding-left: 10px;
+}
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBodyForm form .form-group label{
+    padding-left: 7px;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxBody .innerText h5{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 15px 0px;
+}
+
+.customizeStaffPanel .customizeStaffBoxPanel .customizeStaffBoxHeading .customizeStaffBoxHeadingTitle{
+    display: table;
+    background-color: #2457C0;
+    padding: 13px 28px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    color: #fff;
+    margin: 0 0 -23px 0;
+    z-index: 999;
+    position: relative;
+}
+
+
+.customizeStaffBoxPanel {
+   margin-bottom: 25px !important;
+   box-shadow: 0px 0px 5px #e1e1e1;
+}
+
+@media screen and (max-width: 767px) {   
+    .customizeStaffPreperties .customizeStaffSocialMedia ul {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .customizeStaffPreperties .customizeStaffSocialMedia ul li{
+        padding-bottom: 10px;
+    }
+    .customizeStaffPreperties .customizeStaffUserLeft {
+        flex-direction: column;
+        padding-right: 5px;
+    }
+    .customizeStaffPreperties .customizeStaffUserLeft .customizeStaffUserName {
+        padding-right: 10px;
+    }
+}
